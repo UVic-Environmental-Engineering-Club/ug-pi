@@ -12,8 +12,8 @@ RUN useradd --create-home --groups sudo --shell /bin/bash uveec
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 USER uveec
-RUN mkdir -p ~/ws/src/ug-pi
-WORKDIR /home/uveec/ws/src/ug-pi
+RUN mkdir -p ~/ros2_ws/src/ug-pi
+WORKDIR /home/uveec/ros2_ws/src/ug-pi
 ADD ./requirements.txt .
 
 USER root
