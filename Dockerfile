@@ -15,7 +15,7 @@ RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 USER uveec
 RUN mkdir -p ~/ros2_ws
 WORKDIR /home/uveec/ros2_ws
-COPY . ./
+ADD --keep-git-dir=true git@github.com:UVic-Environmental-Engineering-Club/ug-pi.git
 
 USER root
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
