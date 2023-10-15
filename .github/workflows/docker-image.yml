@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Add private key to SSH_AUTH_SOCK
-        run: |
+        run:
           ## https://stackoverflow.com/questions/70507811/invalid-empty-ssh-agent-socket-make-sure-ssh-auth-sock-is-set-how-to-set-ssh-au
           ##
 	  ## Install ssh-agent if not already installed, it is required by Docker.
