@@ -1,5 +1,6 @@
 FROM ros:humble
 MAINTAINER Philip Esclamado <philipesclamado@uvic.ca>
+MAINTAINER David Kim <daehwankim@uvic.ca> 
 
 ENV DEBIAN_FRONTEND=noninteractive
 
