@@ -10,8 +10,35 @@ env:
   LATEST_TAG: uveec/clockbox:latest
 
 jobs:
+  setup:
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Add private key to SSH_AUTH_SOCK
+        scripts:
+          ## https://stackoverflow.com/questions/70507811/invalid-empty-ssh-agent-socket-make-sure-ssh-auth-sock-is-set-how-to-set-ssh-au
+          ##
+	  ## Install ssh-agent if not already installed, it is required by Docker.
+	  ## (change apt-get to yum if you use an RPM-based image)
+	  ##
+	  - 'command -v ssh-agent >/dev/null || ( apt-get update -y && apt-get install openssh-client -y )'
+
+	  ##
+	  ## Run ssh-agent (inside the build environment)
+	  ##
+	  - eval $(ssh-agent -s)
+
+	  ##
+	  ## Add the SSH key stored in SSH_PRIVATE_KEY variable to the agent store
+	  ## We're using tr to fix line endings which makes ed25519 keys work
+	  ## without extra base64 encoding.
+	  ## https://gitlab.com/gitlab-examples/ssh-private-key/issues/1#note_48526556
+	  ##
+	  - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
+	  
+	  
   docker:
     runs-on: ubuntu-22.04
+    needs: setup
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -30,8 +57,6 @@ jobs:
           context: .
           load: true
           tags: ${{ env.TEST_TAG }}
-          ssh: | 
-            default=${{ env.SSH_AUTH_SOCK }}
       - name: Test
         run: |
           docker run --rm ${{ env.TEST_TAG }}
