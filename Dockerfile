@@ -1,4 +1,5 @@
 FROM ros:humble
+MAINTAINER Philip Esclamado <philipesclamado@uvic.ca>
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -12,9 +13,9 @@ RUN useradd --create-home --groups sudo --shell /bin/bash uveec
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
 USER uveec
-RUN mkdir -p ~/ros2_ws/src/ug-pi
-WORKDIR /home/uveec/ros2_ws/src/ug-pi
-ADD ./requirements.txt .
+RUN mkdir -p ~/ros2_ws
+WORKDIR /home/uveec/ros2_ws
+COPY . ./
 
 USER root
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
