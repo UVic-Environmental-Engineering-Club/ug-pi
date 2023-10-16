@@ -6,8 +6,8 @@ on:
       - "main"
 
 env:
-  TEST_TAG: user/app:test
-  LATEST_TAG: user/app:latest
+  TEST_TAG: uveec/clockbox:test
+  LATEST_TAG: uveec/clockbox:latest
 
 jobs:
   docker:
