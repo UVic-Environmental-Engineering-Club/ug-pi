@@ -30,6 +30,8 @@ jobs:
           context: .
           load: true
           tags: ${{ env.TEST_TAG }}
+          ssh: | 
+            default=${{ env.SSH_AUTH_SOCK }}
       - name: Test
         run: |
           docker run --rm ${{ env.TEST_TAG }}
@@ -40,4 +42,3 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: ${{ env.LATEST_TAG }}
-          ssh: true
