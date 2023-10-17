@@ -20,7 +20,6 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "sample_node = ug_controller.state_machine:main"
         ],
     },
 )
