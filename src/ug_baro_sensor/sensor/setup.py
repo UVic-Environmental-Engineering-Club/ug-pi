@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            "baro_node=sensor.depth_sensor:main"
         ],
     },
 )

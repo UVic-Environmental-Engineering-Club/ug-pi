@@ -19,3 +19,5 @@ reset
 exit
 docker exec -it <container name> su uveec
 # Now everything should be good
+
+# colcon build ug-pi/install
