@@ -2,6 +2,15 @@
 
 DIVE: Deep-sea Intelligent Vehicle Exploration
 
+## Docker
+
+- To build the Docker image
+  - `docker build -t ug:dev .`
+- To run the Docker container and open the shell
+  - On Unix: `docker run -it --name ug-pi --rm --volume $(pwd):/home/uveec/ros2_ws/ug-pi --net=host ug:dev bash`
+  - On Windows: `docker run -it --name ug-pi --rm --volume ${pwd}:/home/uveec/ros2_ws/ug-pi --net=host ug:dev bash`
+  - Then in the shell use `pipenv shell` to start the python environment
+
 ## Maintainers
 
 | Team Member      | Responsibility | Contact                  |
