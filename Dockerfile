@@ -18,7 +18,11 @@ WORKDIR /home/uveec/ros2_ws/ug-pi
 
 USER root
 RUN apt-get clean && rm -rf /var/lib/apt/lists/*
-COPY ./requirements.txt .
-RUN pip install -r ./requirements.txt
+
+RUN pip3 install pipenv
+RUN pipenv run python -m pip install --upgrade pip
+COPY Pipfile .
+COPY Pipfile.lock .
+RUN pipenv install
 
 CMD ["bash"]
