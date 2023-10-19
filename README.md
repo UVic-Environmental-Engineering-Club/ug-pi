@@ -6,7 +6,7 @@ DIVE: Deep-sea Intelligent Vehicle Exploration
 
 | Team Member      | Responsibility | Contact                  |
 | ---------------- | -------------- | ------------------------ |
-| Philip Esclamado | Team Lead      | philipesclamado@uvic.ca  |
+| Philip Esclamado | Lead Engineer  | philipesclamado@uvic.ca  |
 | David Kim        | Software Lead  | daehwankim@uvic.ca       |
 | Rowan Althorp    | Member         | rowalthorp@gmail.com     |
 | Anthony Cieri    | Member         | penguinmillion@gmail.com |
