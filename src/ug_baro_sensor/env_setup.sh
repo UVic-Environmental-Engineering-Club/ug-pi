@@ -11,4 +11,8 @@ echo "source /home/uveec/ros2_ws/ug-pi/install/setup.bash" >> $bshrc
 
 echo "source /opt/ros/humble/setup.bash" >> $bshrc
 
+pipenv shell
+
 chown -R uveec ~/
+
+source ~/.bashrc

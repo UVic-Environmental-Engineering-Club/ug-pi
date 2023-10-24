@@ -14,10 +14,26 @@ docker exec -it <container name> su uveec
 sudo ./env_setup.sh
 
 # then u gotta
-reset
+# reset
 # or
-exit
-docker exec -it <container name> su uveec
+# exit
+# docker exec -it <container name> su uveec
+# or just
+# source ~./bashrc
+# But that should already work
 # Now everything should be good
 
+# Everytime code is changed do this
 # colcon build ug-pi/install
+# And this inside the container idk
+# colcon build
+
+# Since pythion is an interpreted language
+# colcon build --symlink-install
+# In the install dir and in the container will
+# allow changes without rebuilding
+# Might need to do
+# source ~/.bashrc
+
+# Run this to run the package
+# ros2 run sensor baro_node
