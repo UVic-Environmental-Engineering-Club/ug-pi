@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 
-'''
+"""
     Originally written by Anthony Cieri penguinmillion@gmail.com
-    
+
     This creates a ros2 node that reads from the baromatric
     sensor and publishes the readings to the sensor topic.
 
@@ -16,19 +16,22 @@
 
     TODO: Get data from the sensor, requires appropriate libs
             and hardware (raspberry pi and sensor).
-'''
+"""
 
-import math # May be removed later
-import rclpy # For ros2 
-from rclpy.node import Node # To create the node
-from std_msgs.msg import Float32 # TODO: Decide this type
+import math  # May be removed later
+import rclpy  # For ros2
+from rclpy.node import Node  # To create the node
+from std_msgs.msg import Float32  # TODO: Decide this type
+
 # TODO: Import appropriate modules to interface with the sensor
 # TODO: Import appropriate modules for any processing of raw data
 
 
-'''
+"""
     Init the depthSensorNode class and spin it.
-'''
+"""
+
+
 def main(args=None):
     rclpy.init(args=args)
     node = depthSensorNode()
@@ -36,11 +39,13 @@ def main(args=None):
     rclpy.shutdown()
 
 
-'''
+"""
     Currently all this does is publish arbitrary floats to a topic.
 
     TODO: Publish data from sensor
-'''
+"""
+
+
 class depthSensorNode(Node):
     def __init__(self):
         super().__init__("depth_sensor")
@@ -81,7 +86,8 @@ class depthSensorNode(Node):
         # TODO: For demonstration only
         self.data_ /= self.data_ + math.modf(self.data_)[1]
 
-'''
+
+"""
     TODO: Create a class to manage sensor data.
             Needs a method to read from sensor
             One to process data
@@ -95,4 +101,4 @@ class depthSensorNode(Node):
             Multiple streams of data?
             The sensor can give temp as well as pressure,
                 does it need to publish that as well?
-'''
+"""
