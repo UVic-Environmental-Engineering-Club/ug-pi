@@ -1,6 +1,6 @@
 # ug-pi
 
-DIVE: Deep-sea Intelligent Vehicle Exploration
+> DIVE: Deep-sea Intelligent Vehicle Exploration
 
 ## Docker
 
