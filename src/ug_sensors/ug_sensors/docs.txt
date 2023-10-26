@@ -1,0 +1,26 @@
+## Documentation from hacking the barometric sensor into my ros2 node
+
+Since colcon moves everything around while building, regular "import file_name" will not work.
+By doing
+    print(sys.path)
+at the top of a python file, building with colcon, and running it,
+we will see the paths exposed to python.
+If the module that is meant to be imported is in a subdir of that list, the path must be
+stated in the import as:
+    dir1.dir2.module
+
+For this specific project, this usually will look like:
+linking modules after building with colcon: pkg_dir.file_name
+
+Every file must be imported in this way.
+
+Since the scripts have already been written with an assumption as to what the module names are,
+I found importing as the original name was best practice.
+
+For example:
+    Original import:
+        import ms5837
+    New import:
+        import sensor.ms5837 as ms5837
+
+Keep in mind this must be done for every required file, I had to go 3 deep.
