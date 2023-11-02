@@ -58,7 +58,7 @@ class depthSensorNode(Node):
 
         # Every half second publish data to the topic
         # TODO: How often does this need to be updated?
-        self.timer_ = self.create_timer(0.5, self.send_data_callback)
+        self.timer_ = self.create_timer(0.5, self.publish_depth_data)
 
         # Advertise that the node has started
         # TODO: Standardize log messages with other team members
@@ -68,7 +68,7 @@ class depthSensorNode(Node):
 
     # Publish the data
     # TODO: Rename to something more clear
-    def send_data_callback(self):
+    def publish_depth_data(self):
         # TODO: Change type
         msg = Float32()
 
