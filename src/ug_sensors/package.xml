@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
-  <name>sensor</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
+  <name>ug_sensors</name>
+  <version>0.0.1</version>
+  <description>Package for reading and publishing data received from onboard sensors.</description>
   <maintainer email="penguinmillion@gmail.com">Anthony Cieri</maintainer>
   <license>MIT</license>
 

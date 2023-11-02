@@ -52,4 +52,21 @@ qtcreator-*
 CATKIN_IGNORE
 
 # Machine specific scripts
-src/ug_baro_sensor/*.sh
+.gitignore
+
+Pipfile
+Pipfile.lock
+README.md
+.dockerignore
+Dockerfile
+.pre-commit-config.yaml
+LICENSE
+
+build
+install
+log
+
+src/ug_sensors/*.sh
+src/ug_sensors/Pipfile
+src/ug_sensors/Pipfile.lock
+src/ug_sensors/ug_sensors/docs.txt
