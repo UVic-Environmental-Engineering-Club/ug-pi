@@ -1,6 +1,6 @@
 # ug-pi
 
-> DIVE: Deep-sea Intelligent Vehicle Exploration
+> SPLASH: Submerged Probing for Littoral Aquatic Survey and Hydrography
 
 ## Docker
 
