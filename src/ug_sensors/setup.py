@@ -14,7 +14,7 @@ setup(
     zip_safe=True,
     maintainer="Anthony Cieri",
     maintainer_email="penguinmillion@gmail.com",
-    description="Package for reading and publishing data received from onboard sensors.",
+    description="Package that reads and publishes data received from the depth sensor.",
     license="MIT",
     tests_require=["pytest"],
     entry_points={
