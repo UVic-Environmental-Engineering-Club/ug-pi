@@ -1,0 +1,11 @@
+name: colcon_build
+
+run-name: ${{ github.actor }} triggered colcon build on push
+
+on: [push]
+
+jobs:
+    colcon-build:
+        runs-on: [ubuntu-22.04]
+        steps:
+        - run: echo "Hello World"
