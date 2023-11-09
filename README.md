@@ -17,6 +17,7 @@
 | ---------------- | -------------- | ------------------------ |
 | Philip Esclamado | Lead Engineer  | philipesclamado@uvic.ca  |
 | David Kim        | Software Lead  | daehwankim@uvic.ca       |
+| Steve Anil John  | Software Lead  | steveanil2003@gmail.com  |
 | Rowan Althorp    | Member         | rowalthorp@gmail.com     |
 | Anthony Cieri    | Member         | penguinmillion@gmail.com |
 
