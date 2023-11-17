@@ -81,7 +81,7 @@ class depthSensorNode(Node):
         self.depth_data_pub_.publish(msg)
 
         # Log data (Debugging)
-        # self.get_logger().info("Hello " + str(self.data_))
+        self.get_logger().info(str(msg.data))
 
 
 """
@@ -97,7 +97,7 @@ class depthSensorNode(Node):
 
 class depthSensor:
     # Initalize the physical sensor, returns whether init was successful
-    def __init__(self, fresh_water=True) -> bool:
+    def __init__(self, fresh_water=True):
         self.__sensor = (
             sensor_driver.MS5837_30BA()
         )  # Default I2C bus is 1 (Raspberry Pi 3)
@@ -105,20 +105,18 @@ class depthSensor:
         # We must initialize the sensor before reading it
         if not self.__sensor.init():
             # Sensor could not be initialized
-            return False
+            exit(1)
 
         # We have to read values from sensor to update pressure and temperature
         if not self.__sensor.read():
             # Sensor read failed!
-            return False
+            exit(2)
 
         # Freshwater is default, but the glider would usually be in saltwater
         if fresh_water:
             self.__sensor.setFluidDensity(sensor_driver.DENSITY_FRESHWATER)
         else:
             self.__sensor.setFluidDensity(sensor_driver.DENSITY_SALTWATER)
-
-        return True
 
     # Only call read() once for all data
     def read_depth_temp(self) -> tuple[float, float]:
