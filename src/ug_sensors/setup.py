@@ -18,6 +18,9 @@ setup(
     license="MIT",
     tests_require=["pytest"],
     entry_points={
-        "console_scripts": ["depth_sensor = ug_sensors.depth_sensor:main"],
+        "console_scripts": [
+            "depth_sensor = ug_sensors.depth_sensor:main",
+            "depth_sensor_demo_sub = ug_sensors.demo_sub:main",
+        ],
     },
 )
