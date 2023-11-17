@@ -30,7 +30,7 @@ from std_msgs.msg import (
 # This should be a module between the actual sensor driver and this script that
 # Translates whatever the sensor driver gives to what this script expects
 # TODO: What does this script expect? (Specify abstract sensor)
-import sensor.ms5837_sensor as sensor_driver
+import ug_sensors.ms5837_sensor as sensor_driver
 
 
 """
