@@ -9,6 +9,7 @@
 """
 
 import time
+import math
 import random
 
 # Models
@@ -105,9 +106,11 @@ class MS5837(object):
     def altitude(self) -> float:
         return (1 - pow((self.pressure() / 1013.25), 0.190284)) * 145366.45 * 0.3048
 
-    # Cribbed from datasheet
+    # Noisy sine wave
     def _calculate(self) -> None:
-        self._pressure = random.random() * 100000
+        self._pressure = (
+            random.random() * 0.1 + math.sin(time.time() * math.pi * 0.1) * 0.4
+        ) * 100000
 
 
 class MS5837_30BA(MS5837):
