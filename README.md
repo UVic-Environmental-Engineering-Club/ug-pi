@@ -1,6 +1,5 @@
 # ug-pi
-
-> SPLASH: Submerged Probing for Littoral Aquatic Survey and Hydrography
+> A practice docker with ROS2 Humble integration
 
 ## Docker
 
@@ -15,11 +14,9 @@
 
 | Team Member      | Responsibility | Contact                  |
 | ---------------- | -------------- | ------------------------ |
-| Philip Esclamado | Lead Engineer  | philipesclamado@uvic.ca  |
 | David Kim        | Software Lead  | daehwankim@uvic.ca       |
 | Steve Anil John  | Software Lead  | steveanil2003@gmail.com  |
-| Rowan Althorp    | Member         | rowalthorp@gmail.com     |
-| Anthony Cieri    | Member         | penguinmillion@gmail.com |
+| Anthony Cieri    | Software Lead  | penguinmillion@gmail.com |
 
 ## What we used
 
