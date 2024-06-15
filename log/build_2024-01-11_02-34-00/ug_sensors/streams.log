@@ -1,0 +1,47 @@
+[0.847s] Invoking command in '/home/daehwankim/Desktop/ug-pi/src/ug_sensors': PYTHONPATH=/home/daehwankim/Desktop/ug-pi/build/ug_sensors/prefix_override:/home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ug_sensors build --build-base /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build install --record /home/daehwankim/Desktop/ug-pi/build/ug_sensors/install.log --single-version-externally-managed
+[1.130s] running egg_info
+[1.130s] creating ../../build/ug_sensors/ug_sensors.egg-info
+[1.131s] writing ../../build/ug_sensors/ug_sensors.egg-info/PKG-INFO
+[1.131s] writing dependency_links to ../../build/ug_sensors/ug_sensors.egg-info/dependency_links.txt
+[1.131s] writing entry points to ../../build/ug_sensors/ug_sensors.egg-info/entry_points.txt
+[1.131s] writing requirements to ../../build/ug_sensors/ug_sensors.egg-info/requires.txt
+[1.131s] writing top-level names to ../../build/ug_sensors/ug_sensors.egg-info/top_level.txt
+[1.132s] writing manifest file '../../build/ug_sensors/ug_sensors.egg-info/SOURCES.txt'
+[1.134s] reading manifest file '../../build/ug_sensors/ug_sensors.egg-info/SOURCES.txt'
+[1.134s] writing manifest file '../../build/ug_sensors/ug_sensors.egg-info/SOURCES.txt'
+[1.135s] running build
+[1.135s] running build_py
+[1.135s] creating /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build
+[1.135s] creating /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib
+[1.135s] creating /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+[1.136s] copying ug_sensors/depth_sensor.py -> /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+[1.136s] copying ug_sensors/ms5837_sensor.py -> /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+[1.136s] copying ug_sensors/fsm.py -> /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+[1.136s] copying ug_sensors/__init__.py -> /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+[1.136s] copying ug_sensors/demo_sub.py -> /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+[1.136s] running install
+[1.137s] running install_lib
+[1.138s] creating /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+[1.138s] copying /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors/depth_sensor.py -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+[1.138s] copying /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors/ms5837_sensor.py -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+[1.138s] copying /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors/fsm.py -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+[1.139s] copying /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors/__init__.py -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+[1.139s] copying /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors/demo_sub.py -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+[1.139s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors/depth_sensor.py to depth_sensor.cpython-310.pyc
+[1.140s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors/ms5837_sensor.py to ms5837_sensor.cpython-310.pyc
+[1.141s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors/fsm.py to fsm.cpython-310.pyc
+[1.141s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors/__init__.py to __init__.cpython-310.pyc
+[1.142s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors/demo_sub.py to demo_sub.cpython-310.pyc
+[1.142s] running install_data
+[1.143s] creating /home/daehwankim/Desktop/ug-pi/install/ug_sensors/share/ament_index
+[1.143s] creating /home/daehwankim/Desktop/ug-pi/install/ug_sensors/share/ament_index/resource_index
+[1.143s] creating /home/daehwankim/Desktop/ug-pi/install/ug_sensors/share/ament_index/resource_index/packages
+[1.143s] copying resource/ug_sensors -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/share/ament_index/resource_index/packages
+[1.144s] copying package.xml -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/share/ug_sensors
+[1.144s] running install_egg_info
+[1.146s] Copying ../../build/ug_sensors/ug_sensors.egg-info to /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors-0.0.1-py3.10.egg-info
+[1.147s] running install_scripts
+[1.168s] Installing depth_sensor script to /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/ug_sensors
+[1.168s] Installing depth_sensor_demo_sub script to /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/ug_sensors
+[1.169s] writing list of installed files to '/home/daehwankim/Desktop/ug-pi/build/ug_sensors/install.log'
+[1.198s] Invoked command in '/home/daehwankim/Desktop/ug-pi/src/ug_sensors' returned '0': PYTHONPATH=/home/daehwankim/Desktop/ug-pi/build/ug_sensors/prefix_override:/home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ug_sensors build --build-base /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build install --record /home/daehwankim/Desktop/ug-pi/build/ug_sensors/install.log --single-version-externally-managed

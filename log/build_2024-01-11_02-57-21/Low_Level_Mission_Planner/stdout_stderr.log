@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/dependency_links.txt
+writing entry points to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/entry_points.txt
+writing requirements to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/requires.txt
+writing top-level names to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/top_level.txt
+reading manifest file '../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/SOURCES.txt'
+writing manifest file '../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying resource/Low_Level_Mission_Planner -> /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/share/Low_Level_Mission_Planner
+running install_egg_info
+Copying ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info to /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner-0.0.1-py3.10.egg-info
+running install_scripts
+Installing depth_sensor script to /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/Low_Level_Mission_Planner
+Installing fsm script to /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/Low_Level_Mission_Planner
+writing list of installed files to '/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/install.log'

@@ -1,0 +1,45 @@
+running egg_info
+creating ../../build/ug_sensors/ug_sensors.egg-info
+writing ../../build/ug_sensors/ug_sensors.egg-info/PKG-INFO
+writing dependency_links to ../../build/ug_sensors/ug_sensors.egg-info/dependency_links.txt
+writing entry points to ../../build/ug_sensors/ug_sensors.egg-info/entry_points.txt
+writing requirements to ../../build/ug_sensors/ug_sensors.egg-info/requires.txt
+writing top-level names to ../../build/ug_sensors/ug_sensors.egg-info/top_level.txt
+writing manifest file '../../build/ug_sensors/ug_sensors.egg-info/SOURCES.txt'
+reading manifest file '../../build/ug_sensors/ug_sensors.egg-info/SOURCES.txt'
+writing manifest file '../../build/ug_sensors/ug_sensors.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build
+creating /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib
+creating /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+copying ug_sensors/depth_sensor.py -> /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+copying ug_sensors/ms5837_sensor.py -> /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+copying ug_sensors/fsm.py -> /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+copying ug_sensors/__init__.py -> /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+copying ug_sensors/demo_sub.py -> /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors
+running install
+running install_lib
+creating /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+copying /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors/depth_sensor.py -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+copying /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors/ms5837_sensor.py -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+copying /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors/fsm.py -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+copying /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors/__init__.py -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+copying /home/daehwankim/Desktop/ug-pi/build/ug_sensors/build/lib/ug_sensors/demo_sub.py -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors
+byte-compiling /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors/depth_sensor.py to depth_sensor.cpython-310.pyc
+byte-compiling /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors/ms5837_sensor.py to ms5837_sensor.cpython-310.pyc
+byte-compiling /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors/fsm.py to fsm.cpython-310.pyc
+byte-compiling /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors/demo_sub.py to demo_sub.cpython-310.pyc
+running install_data
+creating /home/daehwankim/Desktop/ug-pi/install/ug_sensors/share/ament_index
+creating /home/daehwankim/Desktop/ug-pi/install/ug_sensors/share/ament_index/resource_index
+creating /home/daehwankim/Desktop/ug-pi/install/ug_sensors/share/ament_index/resource_index/packages
+copying resource/ug_sensors -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/share/ament_index/resource_index/packages
+copying package.xml -> /home/daehwankim/Desktop/ug-pi/install/ug_sensors/share/ug_sensors
+running install_egg_info
+Copying ../../build/ug_sensors/ug_sensors.egg-info to /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/python3.10/site-packages/ug_sensors-0.0.1-py3.10.egg-info
+running install_scripts
+Installing depth_sensor script to /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/ug_sensors
+Installing depth_sensor_demo_sub script to /home/daehwankim/Desktop/ug-pi/install/ug_sensors/lib/ug_sensors
+writing list of installed files to '/home/daehwankim/Desktop/ug-pi/build/ug_sensors/install.log'

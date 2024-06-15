@@ -1,0 +1,25 @@
+[0.868s] Invoking command in '/home/daehwankim/Desktop/ug-pi/src/Low_Level_Mission_Planner': PYTHONPATH=/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/prefix_override:/home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Low_Level_Mission_Planner build --build-base /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build install --record /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/install.log --single-version-externally-managed
+[1.160s] running egg_info
+[1.162s] writing ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/PKG-INFO
+[1.162s] writing dependency_links to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/dependency_links.txt
+[1.163s] writing entry points to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/entry_points.txt
+[1.163s] writing requirements to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/requires.txt
+[1.163s] writing top-level names to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/top_level.txt
+[1.165s] reading manifest file '../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/SOURCES.txt'
+[1.167s] writing manifest file '../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/SOURCES.txt'
+[1.167s] running build
+[1.167s] running build_py
+[1.167s] copying Low_Level_Mission_Planner/fsm.py -> /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner
+[1.168s] running install
+[1.168s] running install_lib
+[1.170s] copying /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner/fsm.py -> /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner
+[1.171s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner/fsm.py to fsm.cpython-310.pyc
+[1.173s] running install_data
+[1.173s] running install_egg_info
+[1.176s] removing '/home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner-0.0.1-py3.10.egg-info' (and everything under it)
+[1.176s] Copying ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info to /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner-0.0.1-py3.10.egg-info
+[1.178s] running install_scripts
+[1.200s] Installing depth_sensor script to /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/Low_Level_Mission_Planner
+[1.201s] Installing sensors script to /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/Low_Level_Mission_Planner
+[1.201s] writing list of installed files to '/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/install.log'
+[1.232s] Invoked command in '/home/daehwankim/Desktop/ug-pi/src/Low_Level_Mission_Planner' returned '0': PYTHONPATH=/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/prefix_override:/home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Low_Level_Mission_Planner build --build-base /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build install --record /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/install.log --single-version-externally-managed

@@ -1,0 +1,40 @@
+[0.865s] Invoking command in '/home/daehwankim/Desktop/ug-pi/src/Low_Level_Mission_Planner': PYTHONPATH=/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/prefix_override:/home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Low_Level_Mission_Planner build --build-base /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build install --record /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/install.log --single-version-externally-managed
+[1.149s] running egg_info
+[1.150s] creating ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info
+[1.150s] writing ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/PKG-INFO
+[1.150s] writing dependency_links to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/dependency_links.txt
+[1.150s] writing entry points to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/entry_points.txt
+[1.151s] writing requirements to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/requires.txt
+[1.151s] writing top-level names to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/top_level.txt
+[1.151s] writing manifest file '../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/SOURCES.txt'
+[1.153s] reading manifest file '../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/SOURCES.txt'
+[1.154s] writing manifest file '../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/SOURCES.txt'
+[1.154s] running build
+[1.155s] running build_py
+[1.155s] creating /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build
+[1.155s] creating /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib
+[1.155s] creating /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner
+[1.155s] copying Low_Level_Mission_Planner/depth_sensor.py -> /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner
+[1.155s] copying Low_Level_Mission_Planner/ms5837_sensor.py -> /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner
+[1.155s] copying Low_Level_Mission_Planner/fsm.py -> /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner
+[1.156s] copying Low_Level_Mission_Planner/__init__.py -> /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner
+[1.156s] copying Low_Level_Mission_Planner/demo_sub.py -> /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner
+[1.156s] running install
+[1.156s] running install_lib
+[1.157s] creating /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner
+[1.158s] copying /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner/depth_sensor.py -> /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner
+[1.158s] copying /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner/ms5837_sensor.py -> /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner
+[1.158s] copying /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner/fsm.py -> /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner
+[1.158s] copying /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner/__init__.py -> /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner
+[1.158s] copying /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build/lib/Low_Level_Mission_Planner/demo_sub.py -> /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner
+[1.159s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner/depth_sensor.py to depth_sensor.cpython-310.pyc
+[1.160s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner/ms5837_sensor.py to ms5837_sensor.cpython-310.pyc
+[1.161s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner/fsm.py to fsm.cpython-310.pyc
+[1.161s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner/__init__.py to __init__.cpython-310.pyc
+[1.161s] byte-compiling /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner/demo_sub.py to demo_sub.cpython-310.pyc
+[1.162s] running install_data
+[1.163s] creating /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/share/ament_index
+[1.163s] creating /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/share/ament_index/resource_index
+[1.163s] creating /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/share/ament_index/resource_index/packages
+[1.163s] error: can't copy 'resource/Low_Level_Mission_Planner': doesn't exist or not a regular file
+[1.184s] Invoked command in '/home/daehwankim/Desktop/ug-pi/src/Low_Level_Mission_Planner' returned '1': PYTHONPATH=/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/prefix_override:/home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/Low_Level_Mission_Planner build --build-base /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build install --record /home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/install.log --single-version-externally-managed

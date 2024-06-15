@@ -1,0 +1,410 @@
+[0.000000] (-) TimerEvent: {}
+[0.000348] (Low_Level_Mission_Planner) JobQueued: {'identifier': 'Low_Level_Mission_Planner', 'dependencies': OrderedDict()}
+[0.000662] (Mission_planner) JobQueued: {'identifier': 'Mission_planner', 'dependencies': OrderedDict()}
+[0.000701] (Low_Level_Mission_Planner) JobStarted: {'identifier': 'Low_Level_Mission_Planner'}
+[0.099931] (-) TimerEvent: {}
+[0.200700] (-) TimerEvent: {}
+[0.301385] (-) TimerEvent: {}
+[0.401732] (-) TimerEvent: {}
+[0.502361] (-) TimerEvent: {}
+[0.603094] (-) TimerEvent: {}
+[0.703819] (-) TimerEvent: {}
+[0.804651] (-) TimerEvent: {}
+[0.905629] (-) TimerEvent: {}
+[1.006355] (-) TimerEvent: {}
+[1.107010] (-) TimerEvent: {}
+[1.207986] (-) TimerEvent: {}
+[1.308385] (-) TimerEvent: {}
+[1.408884] (-) TimerEvent: {}
+[1.509696] (-) TimerEvent: {}
+[1.610476] (-) TimerEvent: {}
+[1.711858] (-) TimerEvent: {}
+[1.813085] (-) TimerEvent: {}
+[1.914015] (-) TimerEvent: {}
+[2.014818] (-) TimerEvent: {}
+[2.115616] (-) TimerEvent: {}
+[2.216299] (-) TimerEvent: {}
+[2.316977] (-) TimerEvent: {}
+[2.417610] (-) TimerEvent: {}
+[2.518381] (-) TimerEvent: {}
+[2.619018] (-) TimerEvent: {}
+[2.719467] (-) TimerEvent: {}
+[2.820490] (-) TimerEvent: {}
+[2.921175] (-) TimerEvent: {}
+[3.021867] (-) TimerEvent: {}
+[3.122588] (-) TimerEvent: {}
+[3.223290] (-) TimerEvent: {}
+[3.324167] (-) TimerEvent: {}
+[3.425038] (-) TimerEvent: {}
+[3.525763] (-) TimerEvent: {}
+[3.626407] (-) TimerEvent: {}
+[3.727133] (-) TimerEvent: {}
+[3.827957] (-) TimerEvent: {}
+[3.928653] (-) TimerEvent: {}
+[4.029324] (-) TimerEvent: {}
+[4.130009] (-) TimerEvent: {}
+[4.230705] (-) TimerEvent: {}
+[4.331468] (-) TimerEvent: {}
+[4.432052] (-) TimerEvent: {}
+[4.532783] (-) TimerEvent: {}
+[4.633652] (-) TimerEvent: {}
+[4.734536] (-) TimerEvent: {}
+[4.835089] (-) TimerEvent: {}
+[4.936054] (-) TimerEvent: {}
+[5.036899] (-) TimerEvent: {}
+[5.137881] (-) TimerEvent: {}
+[5.238715] (-) TimerEvent: {}
+[5.339708] (-) TimerEvent: {}
+[5.440366] (-) TimerEvent: {}
+[5.541059] (-) TimerEvent: {}
+[5.641425] (-) TimerEvent: {}
+[5.742172] (-) TimerEvent: {}
+[5.843130] (-) TimerEvent: {}
+[5.944016] (-) TimerEvent: {}
+[6.045296] (-) TimerEvent: {}
+[6.146549] (-) TimerEvent: {}
+[6.247515] (-) TimerEvent: {}
+[6.348231] (-) TimerEvent: {}
+[6.449173] (-) TimerEvent: {}
+[6.549917] (-) TimerEvent: {}
+[6.566175] (Mission_planner) JobStarted: {'identifier': 'Mission_planner'}
+[6.650089] (-) TimerEvent: {}
+[6.750781] (-) TimerEvent: {}
+[6.851284] (-) TimerEvent: {}
+[6.952085] (-) TimerEvent: {}
+[7.052867] (-) TimerEvent: {}
+[7.154613] (-) TimerEvent: {}
+[7.255421] (-) TimerEvent: {}
+[7.356177] (-) TimerEvent: {}
+[7.457055] (-) TimerEvent: {}
+[7.557708] (-) TimerEvent: {}
+[7.658556] (-) TimerEvent: {}
+[7.759218] (-) TimerEvent: {}
+[7.861554] (-) TimerEvent: {}
+[7.962639] (-) TimerEvent: {}
+[8.063542] (-) TimerEvent: {}
+[8.164517] (-) TimerEvent: {}
+[8.265240] (-) TimerEvent: {}
+[8.366026] (-) TimerEvent: {}
+[8.471199] (-) TimerEvent: {}
+[8.571518] (-) TimerEvent: {}
+[8.672017] (-) TimerEvent: {}
+[8.772732] (-) TimerEvent: {}
+[8.873410] (-) TimerEvent: {}
+[8.974168] (-) TimerEvent: {}
+[9.075099] (-) TimerEvent: {}
+[9.175858] (-) TimerEvent: {}
+[9.276533] (-) TimerEvent: {}
+[9.377233] (-) TimerEvent: {}
+[9.478110] (-) TimerEvent: {}
+[9.578893] (-) TimerEvent: {}
+[9.679721] (-) TimerEvent: {}
+[9.780288] (-) TimerEvent: {}
+[9.880853] (-) TimerEvent: {}
+[9.981505] (-) TimerEvent: {}
+[10.082429] (-) TimerEvent: {}
+[10.183092] (-) TimerEvent: {}
+[10.283853] (-) TimerEvent: {}
+[10.384308] (-) TimerEvent: {}
+[10.485068] (-) TimerEvent: {}
+[10.585431] (-) TimerEvent: {}
+[10.686193] (-) TimerEvent: {}
+[10.787002] (-) TimerEvent: {}
+[10.887414] (-) TimerEvent: {}
+[10.987718] (-) TimerEvent: {}
+[11.088034] (-) TimerEvent: {}
+[11.188612] (-) TimerEvent: {}
+[11.289507] (-) TimerEvent: {}
+[11.390155] (-) TimerEvent: {}
+[11.490685] (-) TimerEvent: {}
+[11.591491] (-) TimerEvent: {}
+[11.692201] (-) TimerEvent: {}
+[11.792840] (-) TimerEvent: {}
+[11.893349] (-) TimerEvent: {}
+[11.993813] (-) TimerEvent: {}
+[12.094234] (-) TimerEvent: {}
+[12.195221] (-) TimerEvent: {}
+[12.295962] (-) TimerEvent: {}
+[12.396726] (-) TimerEvent: {}
+[12.497271] (-) TimerEvent: {}
+[12.598084] (-) TimerEvent: {}
+[12.698827] (-) TimerEvent: {}
+[12.799576] (-) TimerEvent: {}
+[12.900404] (-) TimerEvent: {}
+[13.001162] (-) TimerEvent: {}
+[13.101996] (-) TimerEvent: {}
+[13.202310] (-) TimerEvent: {}
+[13.302931] (-) TimerEvent: {}
+[13.403636] (-) TimerEvent: {}
+[13.504022] (-) TimerEvent: {}
+[13.604406] (-) TimerEvent: {}
+[13.705086] (-) TimerEvent: {}
+[13.805427] (-) TimerEvent: {}
+[13.906068] (-) TimerEvent: {}
+[14.006457] (-) TimerEvent: {}
+[14.107299] (-) TimerEvent: {}
+[14.207959] (-) TimerEvent: {}
+[14.308328] (-) TimerEvent: {}
+[14.409014] (-) TimerEvent: {}
+[14.509662] (-) TimerEvent: {}
+[14.610426] (-) TimerEvent: {}
+[14.711216] (-) TimerEvent: {}
+[14.812077] (-) TimerEvent: {}
+[14.912843] (-) TimerEvent: {}
+[15.013747] (-) TimerEvent: {}
+[15.114629] (-) TimerEvent: {}
+[15.215521] (-) TimerEvent: {}
+[15.316353] (-) TimerEvent: {}
+[15.417047] (-) TimerEvent: {}
+[15.517928] (-) TimerEvent: {}
+[15.618695] (-) TimerEvent: {}
+[15.719495] (-) TimerEvent: {}
+[15.819905] (-) TimerEvent: {}
+[15.920360] (-) TimerEvent: {}
+[16.021073] (-) TimerEvent: {}
+[16.125795] (-) TimerEvent: {}
+[16.226664] (-) TimerEvent: {}
+[16.327343] (-) TimerEvent: {}
+[16.430482] (-) TimerEvent: {}
+[16.531296] (-) TimerEvent: {}
+[16.632291] (-) TimerEvent: {}
+[16.733330] (-) TimerEvent: {}
+[16.834128] (-) TimerEvent: {}
+[16.934766] (-) TimerEvent: {}
+[17.035165] (-) TimerEvent: {}
+[17.135946] (-) TimerEvent: {}
+[17.236709] (-) TimerEvent: {}
+[17.489019] (-) TimerEvent: {}
+[17.589311] (-) TimerEvent: {}
+[17.689723] (-) TimerEvent: {}
+[17.789994] (-) TimerEvent: {}
+[17.890336] (-) TimerEvent: {}
+[17.990667] (-) TimerEvent: {}
+[18.091030] (-) TimerEvent: {}
+[18.191671] (-) TimerEvent: {}
+[18.293474] (-) TimerEvent: {}
+[18.394399] (-) TimerEvent: {}
+[18.495106] (-) TimerEvent: {}
+[18.595912] (-) TimerEvent: {}
+[18.696789] (-) TimerEvent: {}
+[18.797782] (-) TimerEvent: {}
+[18.898177] (-) TimerEvent: {}
+[18.999070] (-) TimerEvent: {}
+[19.100085] (-) TimerEvent: {}
+[19.200818] (-) TimerEvent: {}
+[19.301684] (-) TimerEvent: {}
+[19.402459] (-) TimerEvent: {}
+[19.502737] (-) TimerEvent: {}
+[19.603035] (-) TimerEvent: {}
+[19.703302] (-) TimerEvent: {}
+[19.803609] (-) TimerEvent: {}
+[19.903908] (-) TimerEvent: {}
+[20.004349] (-) TimerEvent: {}
+[20.105318] (-) TimerEvent: {}
+[20.206045] (-) TimerEvent: {}
+[20.306770] (-) TimerEvent: {}
+[20.407591] (-) TimerEvent: {}
+[20.660526] (-) TimerEvent: {}
+[20.761058] (-) TimerEvent: {}
+[20.861917] (-) TimerEvent: {}
+[21.040798] (-) TimerEvent: {}
+[21.141630] (-) TimerEvent: {}
+[21.242758] (-) TimerEvent: {}
+[21.343384] (-) TimerEvent: {}
+[21.444223] (-) TimerEvent: {}
+[21.545039] (-) TimerEvent: {}
+[21.645489] (-) TimerEvent: {}
+[21.746291] (-) TimerEvent: {}
+[21.846964] (-) TimerEvent: {}
+[21.948127] (-) TimerEvent: {}
+[22.049099] (-) TimerEvent: {}
+[22.149859] (-) TimerEvent: {}
+[22.250369] (-) TimerEvent: {}
+[22.351146] (-) TimerEvent: {}
+[22.452166] (-) TimerEvent: {}
+[22.553756] (-) TimerEvent: {}
+[22.654510] (-) TimerEvent: {}
+[22.755812] (-) TimerEvent: {}
+[22.856184] (-) TimerEvent: {}
+[22.956991] (-) TimerEvent: {}
+[23.058035] (-) TimerEvent: {}
+[23.263891] (-) TimerEvent: {}
+[23.365038] (-) TimerEvent: {}
+[23.466030] (-) TimerEvent: {}
+[23.566639] (-) TimerEvent: {}
+[23.690367] (-) TimerEvent: {}
+[23.791071] (-) TimerEvent: {}
+[23.892401] (-) TimerEvent: {}
+[23.993075] (-) TimerEvent: {}
+[24.095348] (-) TimerEvent: {}
+[24.196238] (-) TimerEvent: {}
+[24.297170] (-) TimerEvent: {}
+[24.397965] (-) TimerEvent: {}
+[24.498787] (-) TimerEvent: {}
+[24.599674] (-) TimerEvent: {}
+[24.700651] (-) TimerEvent: {}
+[24.801583] (-) TimerEvent: {}
+[24.902454] (-) TimerEvent: {}
+[25.005083] (-) TimerEvent: {}
+[25.106483] (-) TimerEvent: {}
+[25.207267] (-) TimerEvent: {}
+[25.309217] (-) TimerEvent: {}
+[25.409645] (-) TimerEvent: {}
+[25.510416] (-) TimerEvent: {}
+[25.611322] (-) TimerEvent: {}
+[25.712517] (-) TimerEvent: {}
+[25.813301] (-) TimerEvent: {}
+[25.914120] (-) TimerEvent: {}
+[26.015868] (-) TimerEvent: {}
+[26.116966] (-) TimerEvent: {}
+[26.287681] (-) TimerEvent: {}
+[26.388627] (-) TimerEvent: {}
+[26.489393] (-) TimerEvent: {}
+[26.590299] (-) TimerEvent: {}
+[26.691437] (-) TimerEvent: {}
+[26.792490] (-) TimerEvent: {}
+[26.893280] (-) TimerEvent: {}
+[26.994077] (-) TimerEvent: {}
+[27.094906] (-) TimerEvent: {}
+[27.195570] (-) TimerEvent: {}
+[27.296479] (-) TimerEvent: {}
+[27.397196] (-) TimerEvent: {}
+[27.531696] (-) TimerEvent: {}
+[27.632471] (-) TimerEvent: {}
+[27.733192] (-) TimerEvent: {}
+[27.834092] (-) TimerEvent: {}
+[27.934805] (-) TimerEvent: {}
+[28.142185] (-) TimerEvent: {}
+[28.242927] (-) TimerEvent: {}
+[28.343708] (-) TimerEvent: {}
+[28.444508] (-) TimerEvent: {}
+[28.545332] (-) TimerEvent: {}
+[28.687426] (-) TimerEvent: {}
+[28.788284] (-) TimerEvent: {}
+[28.889356] (-) TimerEvent: {}
+[28.990554] (-) TimerEvent: {}
+[29.093880] (-) TimerEvent: {}
+[29.195073] (-) TimerEvent: {}
+[29.296114] (-) TimerEvent: {}
+[29.397112] (-) TimerEvent: {}
+[29.498648] (-) TimerEvent: {}
+[29.599855] (-) TimerEvent: {}
+[29.701240] (-) TimerEvent: {}
+[29.802167] (-) TimerEvent: {}
+[29.902977] (-) TimerEvent: {}
+[30.004013] (-) TimerEvent: {}
+[30.215799] (-) TimerEvent: {}
+[30.316078] (-) TimerEvent: {}
+[30.416466] (-) TimerEvent: {}
+[30.517210] (-) TimerEvent: {}
+[30.617752] (-) TimerEvent: {}
+[30.719132] (-) TimerEvent: {}
+[30.820077] (-) TimerEvent: {}
+[30.920708] (-) TimerEvent: {}
+[31.021467] (-) TimerEvent: {}
+[31.122089] (-) TimerEvent: {}
+[31.222825] (-) TimerEvent: {}
+[31.323742] (-) TimerEvent: {}
+[31.424555] (-) TimerEvent: {}
+[31.524999] (-) TimerEvent: {}
+[31.625795] (-) TimerEvent: {}
+[31.726378] (-) TimerEvent: {}
+[31.827284] (-) TimerEvent: {}
+[31.927773] (-) TimerEvent: {}
+[32.028355] (-) TimerEvent: {}
+[32.129160] (-) TimerEvent: {}
+[32.230046] (-) TimerEvent: {}
+[32.331313] (-) TimerEvent: {}
+[32.432289] (-) TimerEvent: {}
+[32.533111] (-) TimerEvent: {}
+[32.608560] (Mission_planner) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/Mission_planner', 'build', '--build-base', '/home/daehwankim/Desktop/ug-pi/build/Mission_planner/build', 'install', '--record', '/home/daehwankim/Desktop/ug-pi/build/Mission_planner/install.log', '--single-version-externally-managed'], 'cwd': '/home/daehwankim/Desktop/ug-pi/src/Mission_planner', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'daehwankim', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/daehwankim', 'OLDPWD': '/home/daehwankim/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2114', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'daehwankim', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'daehwankim', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/daehwankim/gems/bin:/home/daehwankim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/daehwankim-500R5M-500R5W-501R5M:@/tmp/.ICE-unix/1948,unix/daehwankim-500R5M-500R5W-501R5M:/tmp/.ICE-unix/1948', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/126ccfe5_f6a3_43a7_b531_b06c11df1633', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JV7HK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/daehwankim/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/daehwankim/Desktop/ug-pi/build/Mission_planner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/daehwankim/Desktop/ug-pi/build/Mission_planner/prefix_override:/home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/python3.10/site-packages:'}, 'shell': False}
+[32.739144] (-) TimerEvent: {}
+[32.840413] (-) TimerEvent: {}
+[32.900414] (Low_Level_Mission_Planner) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/Low_Level_Mission_Planner', 'build', '--build-base', '/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/build', 'install', '--record', '/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/install.log', '--single-version-externally-managed'], 'cwd': '/home/daehwankim/Desktop/ug-pi/src/Low_Level_Mission_Planner', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_CA:en', 'USER': 'daehwankim', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'HOME': '/home/daehwankim', 'OLDPWD': '/home/daehwankim/Desktop', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2114', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'daehwankim', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'daehwankim', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/daehwankim/gems/bin:/home/daehwankim/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/daehwankim-500R5M-500R5W-501R5M:@/tmp/.ICE-unix/1948,unix/daehwankim-500R5M-500R5W-501R5M:/tmp/.ICE-unix/1948', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/126ccfe5_f6a3_43a7_b531_b06c11df1633', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_CA.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JV7HK2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'GEM_HOME': '/home/daehwankim/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/prefix_override:/home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages:'}, 'shell': False}
+[32.940641] (-) TimerEvent: {}
+[33.041589] (-) TimerEvent: {}
+[33.141932] (-) TimerEvent: {}
+[33.242211] (-) TimerEvent: {}
+[33.342494] (-) TimerEvent: {}
+[33.393722] (Low_Level_Mission_Planner) StdoutLine: {'line': b'running egg_info\n'}
+[33.394729] (Low_Level_Mission_Planner) StdoutLine: {'line': b'writing ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/PKG-INFO\n'}
+[33.395456] (Mission_planner) StdoutLine: {'line': b'running egg_info\n'}
+[33.396067] (Mission_planner) StdoutLine: {'line': b'writing ../../build/Mission_planner/Mission_planner.egg-info/PKG-INFO\n'}
+[33.442715] (-) TimerEvent: {}
+[33.539103] (Mission_planner) StdoutLine: {'line': b'writing dependency_links to ../../build/Mission_planner/Mission_planner.egg-info/dependency_links.txt\n'}
+[33.541404] (Mission_planner) StdoutLine: {'line': b'writing entry points to ../../build/Mission_planner/Mission_planner.egg-info/entry_points.txt\n'}
+[33.542703] (Mission_planner) StdoutLine: {'line': b'writing requirements to ../../build/Mission_planner/Mission_planner.egg-info/requires.txt\n'}
+[33.543650] (-) TimerEvent: {}
+[33.545655] (Mission_planner) StdoutLine: {'line': b'writing top-level names to ../../build/Mission_planner/Mission_planner.egg-info/top_level.txt\n'}
+[33.549229] (Low_Level_Mission_Planner) StdoutLine: {'line': b'writing dependency_links to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/dependency_links.txt\n'}
+[33.549886] (Low_Level_Mission_Planner) StdoutLine: {'line': b'writing entry points to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/entry_points.txt\n'}
+[33.550582] (Low_Level_Mission_Planner) StdoutLine: {'line': b'writing requirements to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/requires.txt\n'}
+[33.551539] (Low_Level_Mission_Planner) StdoutLine: {'line': b'writing top-level names to ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/top_level.txt\n'}
+[33.553772] (Mission_planner) StdoutLine: {'line': b"reading manifest file '../../build/Mission_planner/Mission_planner.egg-info/SOURCES.txt'\n"}
+[33.556914] (Low_Level_Mission_Planner) StdoutLine: {'line': b"reading manifest file '../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/SOURCES.txt'\n"}
+[33.643844] (-) TimerEvent: {}
+[33.664576] (Mission_planner) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[33.672459] (Mission_planner) StdoutLine: {'line': b"writing manifest file '../../build/Mission_planner/Mission_planner.egg-info/SOURCES.txt'\n"}
+[33.674123] (Mission_planner) StdoutLine: {'line': b'running build\n'}
+[33.675001] (Mission_planner) StdoutLine: {'line': b'running build_py\n'}
+[33.683245] (Low_Level_Mission_Planner) StdoutLine: {'line': b"writing manifest file '../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info/SOURCES.txt'\n"}
+[33.685365] (Low_Level_Mission_Planner) StdoutLine: {'line': b'running build\n'}
+[33.686303] (Low_Level_Mission_Planner) StdoutLine: {'line': b'running build_py\n'}
+[33.743974] (-) TimerEvent: {}
+[33.844630] (-) TimerEvent: {}
+[33.905578] (Mission_planner) StdoutLine: {'line': b'running install\n'}
+[33.908262] (Mission_planner) StdoutLine: {'line': b'running install_lib\n'}
+[33.944849] (-) TimerEvent: {}
+[33.990614] (Low_Level_Mission_Planner) StdoutLine: {'line': b'running install\n'}
+[33.993624] (Low_Level_Mission_Planner) StdoutLine: {'line': b'running install_lib\n'}
+[34.016371] (Mission_planner) StdoutLine: {'line': b'running install_data\n'}
+[34.045106] (-) TimerEvent: {}
+[34.048809] (Low_Level_Mission_Planner) StdoutLine: {'line': b'running install_data\n'}
+[34.145331] (-) TimerEvent: {}
+[34.245760] (-) TimerEvent: {}
+[34.253703] (Mission_planner) StdoutLine: {'line': b'running install_egg_info\n'}
+[34.266843] (Mission_planner) StdoutLine: {'line': b"removing '/home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/python3.10/site-packages/Mission_planner-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[34.269411] (Mission_planner) StdoutLine: {'line': b'Copying ../../build/Mission_planner/Mission_planner.egg-info to /home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/python3.10/site-packages/Mission_planner-0.0.0-py3.10.egg-info\n'}
+[34.346045] (-) TimerEvent: {}
+[34.353831] (Low_Level_Mission_Planner) StdoutLine: {'line': b'running install_egg_info\n'}
+[34.363086] (Low_Level_Mission_Planner) StdoutLine: {'line': b"removing '/home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[34.365877] (Low_Level_Mission_Planner) StdoutLine: {'line': b'Copying ../../build/Low_Level_Mission_Planner/Low_Level_Mission_Planner.egg-info to /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/python3.10/site-packages/Low_Level_Mission_Planner-0.0.1-py3.10.egg-info\n'}
+[34.366524] (Mission_planner) StdoutLine: {'line': b'running install_scripts\n'}
+[34.446163] (-) TimerEvent: {}
+[34.468075] (Mission_planner) StdoutLine: {'line': b'Installing fsm script to /home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/Mission_planner\n'}
+[34.473718] (Low_Level_Mission_Planner) StdoutLine: {'line': b'running install_scripts\n'}
+[34.498453] (Low_Level_Mission_Planner) StdoutLine: {'line': b'Installing depth_sensor script to /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/Low_Level_Mission_Planner\n'}
+[34.532793] (Mission_planner) StdoutLine: {'line': b"writing list of installed files to '/home/daehwankim/Desktop/ug-pi/build/Mission_planner/install.log'\n"}
+[34.543515] (Low_Level_Mission_Planner) StdoutLine: {'line': b'Installing sensors script to /home/daehwankim/Desktop/ug-pi/install/Low_Level_Mission_Planner/lib/Low_Level_Mission_Planner\n'}
+[34.546327] (-) TimerEvent: {}
+[34.627197] (Low_Level_Mission_Planner) StdoutLine: {'line': b"writing list of installed files to '/home/daehwankim/Desktop/ug-pi/build/Low_Level_Mission_Planner/install.log'\n"}
+[34.638107] (Mission_planner) CommandEnded: {'returncode': 0}
+[34.646414] (-) TimerEvent: {}
+[34.746944] (-) TimerEvent: {}
+[34.847931] (-) TimerEvent: {}
+[35.052478] (-) TimerEvent: {}
+[35.153493] (-) TimerEvent: {}
+[35.254424] (-) TimerEvent: {}
+[35.422281] (-) TimerEvent: {}
+[35.522793] (-) TimerEvent: {}
+[35.623445] (-) TimerEvent: {}
+[35.730057] (-) TimerEvent: {}
+[35.830615] (-) TimerEvent: {}
+[35.931517] (-) TimerEvent: {}
+[36.032391] (-) TimerEvent: {}
+[36.133243] (-) TimerEvent: {}
+[36.233970] (-) TimerEvent: {}
+[36.335132] (-) TimerEvent: {}
+[36.436563] (-) TimerEvent: {}
+[36.537551] (-) TimerEvent: {}
+[36.638671] (-) TimerEvent: {}
+[36.739889] (-) TimerEvent: {}
+[36.841950] (-) TimerEvent: {}
+[36.908182] (Mission_planner) JobEnded: {'identifier': 'Mission_planner', 'rc': 0}
+[36.913611] (Low_Level_Mission_Planner) CommandEnded: {'returncode': 0}
+[36.942066] (-) TimerEvent: {}
+[37.043080] (-) TimerEvent: {}
+[37.144296] (-) TimerEvent: {}
+[37.306343] (-) TimerEvent: {}
+[37.330775] (Low_Level_Mission_Planner) JobEnded: {'identifier': 'Low_Level_Mission_Planner', 'rc': 0}
+[37.332810] (-) EventReactorShutdown: {}

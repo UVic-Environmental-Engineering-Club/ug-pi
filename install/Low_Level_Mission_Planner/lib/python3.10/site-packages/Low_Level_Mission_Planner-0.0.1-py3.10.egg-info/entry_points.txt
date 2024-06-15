@@ -1,0 +1,4 @@
+[console_scripts]
+depth_sensor = Low_Level_Mission_Planner.depth_sensor:main
+sensors = Low_Level_Mission_Planner.sensors:main
+

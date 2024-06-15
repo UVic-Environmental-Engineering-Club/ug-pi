@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/Mission_planner/Mission_planner.egg-info
+writing ../../build/Mission_planner/Mission_planner.egg-info/PKG-INFO
+writing dependency_links to ../../build/Mission_planner/Mission_planner.egg-info/dependency_links.txt
+writing entry points to ../../build/Mission_planner/Mission_planner.egg-info/entry_points.txt
+writing requirements to ../../build/Mission_planner/Mission_planner.egg-info/requires.txt
+writing top-level names to ../../build/Mission_planner/Mission_planner.egg-info/top_level.txt
+writing manifest file '../../build/Mission_planner/Mission_planner.egg-info/SOURCES.txt'
+reading manifest file '../../build/Mission_planner/Mission_planner.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/Mission_planner/Mission_planner.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daehwankim/Desktop/ug-pi/build/Mission_planner/build
+creating /home/daehwankim/Desktop/ug-pi/build/Mission_planner/build/lib
+creating /home/daehwankim/Desktop/ug-pi/build/Mission_planner/build/lib/Mission_planner
+copying Mission_planner/fsm.py -> /home/daehwankim/Desktop/ug-pi/build/Mission_planner/build/lib/Mission_planner
+copying Mission_planner/__init__.py -> /home/daehwankim/Desktop/ug-pi/build/Mission_planner/build/lib/Mission_planner
+running install
+running install_lib
+creating /home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/python3.10/site-packages/Mission_planner
+copying /home/daehwankim/Desktop/ug-pi/build/Mission_planner/build/lib/Mission_planner/fsm.py -> /home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/python3.10/site-packages/Mission_planner
+copying /home/daehwankim/Desktop/ug-pi/build/Mission_planner/build/lib/Mission_planner/__init__.py -> /home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/python3.10/site-packages/Mission_planner
+byte-compiling /home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/python3.10/site-packages/Mission_planner/fsm.py to fsm.cpython-310.pyc
+byte-compiling /home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/python3.10/site-packages/Mission_planner/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/daehwankim/Desktop/ug-pi/install/Mission_planner/share/ament_index
+creating /home/daehwankim/Desktop/ug-pi/install/Mission_planner/share/ament_index/resource_index
+creating /home/daehwankim/Desktop/ug-pi/install/Mission_planner/share/ament_index/resource_index/packages
+copying resource/Mission_planner -> /home/daehwankim/Desktop/ug-pi/install/Mission_planner/share/ament_index/resource_index/packages
+copying package.xml -> /home/daehwankim/Desktop/ug-pi/install/Mission_planner/share/Mission_planner
+running install_egg_info
+Copying ../../build/Mission_planner/Mission_planner.egg-info to /home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/python3.10/site-packages/Mission_planner-0.0.0-py3.10.egg-info
+running install_scripts
+Installing fsm script to /home/daehwankim/Desktop/ug-pi/install/Mission_planner/lib/Mission_planner
+writing list of installed files to '/home/daehwankim/Desktop/ug-pi/build/Mission_planner/install.log'
