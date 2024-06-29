@@ -16,7 +16,7 @@
 | ---------------- | -------------- | ------------------------ |
 | David Kim        | Software Lead  | daehwankim@uvic.ca       |
 | Steve Anil John  | Software Lead  | steveanil2003@gmail.com  |
-| Anthony Cieri    | Software Lead  | penguinmillion@gmail.com |
+| Anthony Cieri    | Software Lead  | anthony.cieri@hotmail.com |
 
 ## What we used
 
