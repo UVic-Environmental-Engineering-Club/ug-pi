@@ -10,4 +10,4 @@ After=network.target
 [Service]
 Type=exec
 User=pi
-ExecStart=/home/pi/Documents/ug-pi/src/pi_startup/auto_update_service/setup.sh
+ExecStart=/bin/bash /home/pi/Documents/ug-pi/src/pi_startup/auto_update_service/setup.sh
