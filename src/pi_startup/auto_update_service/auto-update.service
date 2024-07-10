@@ -1,0 +1,13 @@
+
+# Simply runs setup.sh in the Git repo
+# This must be manually placed in /etc/systemd/system and enabled
+
+[Unit]
+Description=Run setup.sh after boot
+After=network.target
+# OnFailure= TODO: Probably something
+
+[Service]
+Type=exec
+User=pi
+ExecStart=/home/pi/Documents/ug-pi/src/pi_startup/auto_update_service/setup.sh
