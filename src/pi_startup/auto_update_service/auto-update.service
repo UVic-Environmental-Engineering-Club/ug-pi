@@ -11,3 +11,6 @@ After=network.target
 Type=exec
 User=pi
 ExecStart=/bin/bash /home/pi/Documents/ug-pi/src/pi_startup/auto_update_service/setup.sh
+
+[Install]
+WantedBy=default.target
