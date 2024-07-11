@@ -17,8 +17,6 @@ date >> $log_path
 # Send both stdout and stderr to the log
 git pull >> $log_path 2>&1
 
-echo $(pwd) > testing.txt
-
 bash $git_dir/src/pi_startup/startup_stuff/test.sh
 
 python3 $git_dir/src/pi_startup/startup_stuff/test.py > ~/Documents/test_py_output.txt
