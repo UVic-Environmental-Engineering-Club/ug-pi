@@ -5,10 +5,11 @@
 # Runs some other scripts
 
 git_dir='/home/pi/Documents/ug-pi'
-log_path='~/Documents/setup.log'
+log_path='/home/pi/Documents/setup.log'
 
 cd $git_dir
 
+touch $log_path
 # New line
 echo >> $log_path
 date >> $log_path
