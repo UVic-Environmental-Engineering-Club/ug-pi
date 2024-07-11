@@ -7,4 +7,4 @@ log_path='/home/pi/Documents/setup.log'
 
 echo $(pwd)
 
-ping -c uveec.ca >> $log_path 2>&1
+ping -c 5 uveec.ca >> $log_path 2>&1
