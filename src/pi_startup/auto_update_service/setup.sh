@@ -13,7 +13,8 @@ cd $git_dir
 echo >> $log_path
 date >> $log_path
 
-git pull >> $log_path
+# Send both stdout and stderr to the log
+git pull >> $log_path 2>&1
 
 echo $(pwd) > testing.txt
 
