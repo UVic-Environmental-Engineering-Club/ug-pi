@@ -1,11 +1,17 @@
 
-# No shebang, not executable run this with bash directly
+# No shebang, not executable. Run this with bash directly
 
 # Test script
 # Runs some other scripts
 
+git_dir='/home/pi/Documents/ug-pi/'
+
+cd git_dir
+
+git pull >> ~/Documents/setup.log
+
 echo $(pwd) > testing.txt
 
-/home/pi/Documents/ug-pi/src/pi_startup/startup_stuff/test.sh
+bash ./src/pi_startup/startup_stuff/test.sh
 
-python3 /home/pi/Documents/ug-pi/src/pi_startup/startup_stuff/test.py > ~/Documents/test_py_output.txt
+python3 ./src/pi_startup/startup_stuff/test.py > ~/Documents/test_py_output.txt
