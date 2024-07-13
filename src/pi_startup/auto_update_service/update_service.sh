@@ -3,5 +3,5 @@
 
 cp auto-update.service /etc/systemd/system/
 
-systemd reload-daemon
-systemd enable auto-update
+systemctl reload-daemon
+systemctl enable auto-update
